@@ -1,0 +1,10 @@
+# Core web app
+streamlit>=1.40,<2.0
+# Google Gen AI SDK (the current, supported SDK: "from google import genai")
+google-genai>=1.0,<2.0
+# Load GEMINI_API_KEY from the .env file
+python-dotenv>=1.0,<2.0
+# Weather API calls (Open-Meteo)
+requests>=2.31,<3.0
+# Tables and charts (also installed by Streamlit; listed for clarity)
+pandas>=2.0
